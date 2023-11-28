@@ -46,10 +46,10 @@ a:hover{
 color: red;
 }
 a:focus {
-color:yellow;
+font-weight: bold;
 }
-a:visited{
-color:black;
+a:link {
+font-size:20px;
 }
 a:disabled{
     color: grey;
