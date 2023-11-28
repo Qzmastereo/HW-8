@@ -1,0 +1,56 @@
+.text-box h3:first-child {
+    color: pink;
+  }
+  
+.text-box #greycol {
+    color: grey;
+  }
+.text-box div p {
+    color: red;
+  }
+.text-box p:nth-child(7){
+    color: green;
+  }
+  
+.text-box .yellow {
+    color: yellow;
+  }
+  
+
+.monday {
+    background-color: goldenrod; 
+}
+.tuesday {
+    background-color:aqua; 
+}
+.wednesday {
+    background-color:greenyellow; 
+}
+.thursday {
+    background-color:tomato; 
+}
+.friday {
+    background-color:brown; 
+}
+
+li:nth-child(even){
+font-weight: bold;
+}
+li:nth-child(odd){
+font-style: oblique;
+}
+li:hover{
+color: green;
+}
+a:hover{
+color: red;
+}
+a:focus {
+color:yellow;
+}
+a:visited{
+color:black;
+}
+a:disabled{
+    color: grey;
+}
